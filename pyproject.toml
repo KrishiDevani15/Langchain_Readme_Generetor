@@ -1,0 +1,15 @@
+[project]
+name = "generate-readme"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gitpython>=3.1.44",
+    "langchain>=0.3.24",
+    "langchain-community>=0.3.22",
+    "langchain-groq>=0.3.2",
+    "langchain-openai>=0.3.14",
+    "pip>=25.0.1",
+    "streamlit>=1.44.1",
+]
